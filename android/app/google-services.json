@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "797409514963",
+    "project_id": "next-elektronik-store",
+    "storage_bucket": "next-elektronik-store.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797409514963:android:bbca570f6555c5dc98cb26",
+        "android_client_info": {
+          "package_name": "com.nextelektronik.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa1VrRtX_QvCfB0hQpACGDE33jyxfWkoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,69 @@
+name: flutter_nextonlinestore_app
+description: "Flutter Online Store App - E-Commerce (NextElektronik)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_bloc: ^9.0.0
+  freezed_annotation: ^3.0.0
+
+  # Network & Data
+  http: ^1.3.0
+  dartz: ^0.10.1
+  shared_preferences: ^2.5.1
+
+  # UI
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.4.1
+  carousel_slider: ^5.0.0
+  shimmer: ^3.0.0
+
+  # Utils
+  intl: ^0.20.2
+  url_launcher: ^6.3.1
+
+  # Maps & Location
+  flutter_map: ^8.3.0
+  latlong2: ^0.9.1
+  geolocator: ^14.0.2
+
+  # Payment WebView
+  webview_flutter: ^4.13.1
+
+  # Push Notifications (FCM)
+  firebase_core: ^4.0.0
+  firebase_messaging: ^16.0.0
+  flutter_local_notifications: ^18.0.1
+  permission_handler: ^12.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Code Generation
+  freezed: ^3.0.0
+  build_runner: ^2.4.14
+
+  # Testing
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.4
+
+  # Release tools
+  flutter_launcher_icons: ^0.14.4
+  change_app_package_name: ^1.5.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
